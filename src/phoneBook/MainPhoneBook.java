@@ -13,11 +13,11 @@ public class MainPhoneBook {
 		//create main directory
 		Directory primary = new Directory();
 		//create people so there is already some data in the directory
-		Person c1 = new Person("Alex", "Duncan", "Ray" ,6185486724L);
-		Person c2 = new Person("Rick", "Ross", "",6183228091L);
+		Person c1 = new Person("Sherlock", "Holmes", "Watson" ,5558675309L);
+		Person c2 = new Person("Rick", "Ross", "",5551234567L);
 		//add addresses for the two people
-		c1.addAddress(2600, "South Broadway", "Salem", "IL", "62881");
-		c2.addAddress(4952, "McPherson Avenue", "St Louis", "MO", "63108");	
+		c1.addAddress(221, "Baker St", "Chicago", "IL", "63333");
+		c2.addAddress(4999, "Washington Ave", "St Louis", "MO", "63108");	
 		//add them to the directory
 		primary.addPerson(c1);
 		primary.addPerson(c2);
